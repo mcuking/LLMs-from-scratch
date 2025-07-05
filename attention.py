@@ -1,5 +1,5 @@
 import torch
-from torch import nn
+import torch.nn as nn
 
 # 当我们定义一个PyTorch模型时，通常会继承`nn.Module`类
 class MultiHeadAttention(nn.Module):
